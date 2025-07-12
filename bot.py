@@ -31,7 +31,7 @@ from aiogram.types import (
     InlineKeyboardMarkup,
 )
 
-API_TOKEN = os.getenv("BOT_TOKEN") or "YOUR_BOT_TOKEN_HERE"
+API_TOKEN = os.getenv("BOT_TOKEN") or "7830203887:AAGnf6VzgCSGDwtGct4vMRppw7u4_tLTAyg"
 if API_TOKEN.startswith("YOUR_"):
     raise RuntimeError("👉  BOT_TOKEN environment variable डाल दीजिये!")
 
